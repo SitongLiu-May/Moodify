@@ -4,13 +4,10 @@ import './App.css';
 function App() {
     return (
 <div className="App">
- <header className="App-header">
-    Hello!!!
-</header>
 
-<p className="App-p">He</p>
-    </div>
-  );
+<p className="App-p">Welcome to Moodify. We're here to help you</p>
+</div>
+);
 }
 
 

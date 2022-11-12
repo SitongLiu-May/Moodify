@@ -2,24 +2,13 @@
 
   background-image: linear-gradient(to bottom, rgba(14, 180, 241, 0.3), rgb(48, 143, 187) );
   font-style: italic;
-  min-height: 2000px;
+  min-height: 3000px;
 
-}
-
-.App-header {
-  height: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: calc(20px + 2vmin);
-  text-align: center;
-  top: 90%;
-  vertical-align: middle;
 
 }
 
 .App-p{
-  margin-top: 15%;
+
   height: 80px;
   font-size: 50px;
   text-align: center;
