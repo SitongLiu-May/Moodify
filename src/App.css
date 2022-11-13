@@ -16,14 +16,19 @@
 
 .Good{
   position: absolute;
-  top: 0;
+  writing-mode: vertical-rl;
+  top: 300px;
   left: 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: whitesmoke;
+  font-size: 40px;
 }
 
-.Heading{
+.App-Heading{
   position: static;
   font-size: 30px;
-  text-align: center;
+  padding-left: 60%;
+  padding-top: 80px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-style: oblique;
 }
@@ -98,6 +103,7 @@
 
 .App-WelcomeGreeting{
   position: static;
+  padding-top: 20px;
   font-size: 30px;
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
