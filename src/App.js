@@ -18,7 +18,7 @@ return (
 <button className = "Sad"> <img src={"./Photos/Sad.png"} /> <div class="caption">Sad</div>
 </button>
 <button className = "Dead"> <img src={"./Photos/Dead.png"} /> 
-<div class="caption">Dead</div>
+<div class="dead-caption">Dead</div>
 </button> 
 
 
