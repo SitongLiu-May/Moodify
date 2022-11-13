@@ -1,9 +1,53 @@
+.Image {
+  /*background: transparent;*/
+  height: 50px;
+  width: 50px;
+}
+
+
 .App { /*entire page modifications */
-  background-image: linear-gradient(to bottom, rgba(75, 144, 214, 0.454), rgb(48, 143, 187) );
-  
+  background-image: linear-gradient(to bottom, rgba(75, 144, 214, 0.454), rgb(48, 143, 187));
+  overflow: hidden;
   min-height: 3000px;
+}
 
+.Happy {
+  background: transparent;
+  /*border: 100px*/
+}
+.Happy img {
+  width: 30px;
+  height: 30px;
+}
 
+.Angry {
+  background: transparent;
+  /*border: 100px;*/
+}
+
+.Angry img {
+  width: 30px;
+  height: 30px;
+}
+
+.Sad {
+  background: transparent;
+  /*border: 100px*/
+}
+
+.Sad img {
+  width: 30px;
+  height: 30px;
+}
+
+.Dead {
+  background: transparent;
+  /*border: 100px*/
+}
+
+.Dead img {
+  width: 30px;
+  height: 30px;
 }
 
 .App-p{
@@ -16,4 +60,6 @@
   font-weight: 300;
   font-stretch: semi-expanded;
 }
+
+
 

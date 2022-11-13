@@ -1,6 +1,17 @@
 
 import './App.css';
 
+
+// function Image({src}) {
+//   return (
+//     <div className={"Image"}>
+//       <img src={src} alt="Image" />
+//     </div>
+//   )
+// }
+
+
+
 function App() {
 return (
 <div className="App">
@@ -10,11 +21,19 @@ return (
 
 <p className = "Heading">How do you feel?</p>
 <p className = "Good">Good morning</p>
+  <button className = "Happy"> <img src={"./Photos/Happy.png"} alt = "Image"/> </button>
+  <button className = "Angry"> <img src={"./Photos/Angry.png"} alt = "Image"/> </button>
+  <button className = "Sad"> <img src={"./Photos/Sad.png"} alt = "Image"/> </button>
+  <button className = "Dead"> <img src={"./Photos/Dead.png"} alt = "Image"/> </button>
 
-<p className = "Emotions">Happy</p>
-<p className = "Emotions">Angry</p>
-<p className = "Emotions">Sad</p>
-<p className = "Emotions">Dead</p>
+
+
+
+  {/*<button className = "Angry"> <img src={"./Photos/Angry.png"} /> </button>*/}
+  {/*<button className = "Sad"> <img src={"./Photos/Sad.png"} /> </button>*/}
+  {/*<button className = "Dead"> <img src={"./Photos/Dead.png"} /> </button>*/}
+
+
 
 <p className="App-p">Welcome to Moodify. We're here to help you</p>
 
