@@ -44,10 +44,7 @@ return (
 <button className = "Dead"> <img src={"./Photos/Dead.png"} /> 
 <div class="dead-caption">Dead</div>
 </button> 
-<div class="white-box">
-  <p>"Hello"</p>  
-</div>
-
+<div class="footer"> "Hello</div>
 
 </div>
 );

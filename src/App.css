@@ -126,11 +126,6 @@
   color: whitesmoke;
 }
 
-.white-box {
-  background-color: white;
-  color: black;
-
-}
 
 .caption{
   font-size: 1rem;
@@ -154,6 +149,11 @@
   left: 0;
   right: 5px;
 }
-
+.footer{
+position: relative;
+margin-top: -180px;
+/* negative value of footer height */
+height: 180px;
+background-color: red;}
 
 
