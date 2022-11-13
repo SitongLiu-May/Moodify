@@ -21,11 +21,6 @@ return (
 <p className = "App-Heading">How are you feeling?</p>
 <p className = "Good">Good morning</p>
   
-  <button className = "Happy"> <img src={"./Photos/Happy.png"} alt = "Image"/> </button>
-  <button className = "Angry"> <img src={"./Photos/Angry.png"} alt = "Image"/> </button>
-  <button className = "Sad"> <img src={"./Photos/Sad.png"} alt = "Image"/> </button>
-  <button className = "Dead"> <img src={"./Photos/Dead.png"} alt = "Image"/> </button>
-
 
 
 
@@ -44,9 +39,22 @@ return (
 <button className = "Dead"> <img src={"./Photos/Dead.png"} /> 
 <div class="dead-caption">Dead</div>
 </button> 
-<div class="footer"> "Hello</div>
 
+
+
+
+
+
+
+
+
+
+<div className="footer"> Welcome to Moodify! We're a project made for Boston Hacks where we find you the best music 
+based off of your mood. Give us a try and find your jam!</div>
 </div>
+
+
+
 );
 }
 

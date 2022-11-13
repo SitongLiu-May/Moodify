@@ -10,14 +10,14 @@
   background-image: linear-gradient(to bottom, rgba(75, 144, 214, 0.454), rgb(48, 143, 187));
 
   overflow: hidden;
-  min-height: 1500px;
+  min-height: 1000px;
 }
 
 
 .Good{
   position: absolute;
   writing-mode: vertical-rl;
-  top: 300px;
+  top: 450px;
   left: 0;
   font-family: 'Courier New', Courier, monospace;
   color: whitesmoke;
@@ -50,8 +50,8 @@
   background: transparent;
   border:0;
   position: absolute;
-  top: 400px;
-  right: 950px;
+  top: 450px;
+  right: 900px;
   width: 200px;
   height: 100px;
 }
@@ -64,8 +64,8 @@
   background: transparent;
   border:0;
   position: absolute;
-  top: 365px;
-  right: 750px;
+  top: 420px;
+  right: 700px;
   width: 200px;
   height: 85px;
 }
@@ -78,8 +78,8 @@
   background: transparent;
   border:0;
   position: absolute;
-  top: 400px;
-  right: 550px;
+  top: 445px;
+  right: 500px;
   width: 200px;
   height: 80px;
 }
@@ -93,8 +93,8 @@
   background: transparent;
   border:0;
   position: absolute;
-  top: 400px;
-  right: 350px;
+  top: 450px;
+  right: 320px;
   width: 200px;
   height: 200px;
 }
@@ -143,17 +143,24 @@
   color: white;
   text-transform: uppercase;
   letter-spacing: 3px;
-  
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 15px;
+  left:0px;
   right: 5px;
 }
-.footer{
-position: relative;
-margin-top: -180px;
-/* negative value of footer height */
-height: 180px;
-background-color: red;}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  font-size: 20px;
+  height: 55px;
+  background-color: rgb(227, 227, 227);
+  color: rgb(77, 31, 31);
+  text-align: center;
+}
 
 
