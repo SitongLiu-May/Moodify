@@ -15,8 +15,7 @@ import './App.css';
 function App() {
 return (
 <div className="App">
-<p className="App-WelcomeGreating">Welcome to Moodify. We're here to help you</p>
-<p className = "App-WelcomeGreating">Hello.</p>
+<p className="App-WelcomeGreeting">Welcome to Moodify. We're here to help you</p>
 
 
 <p className = "Heading">How do you feel?</p>
@@ -35,12 +34,24 @@ return (
 
 
 
-<p className="App-p">Welcome to Moodify. We're here to help you</p>
+<button className = "Happy"> <img src={"./Photos/Happy.png"} /><div class="caption">Happy</div>
+ </button>
+<button className = "Angry"> <img src={"./Photos/Angry.png"} /> 
+<div class="caption">Angry</div></button>
+<button className = "Sad"> <img src={"./Photos/Sad.png"} /> <div class="caption">Sad</div>
+</button>
+<button className = "Dead"> <img src={"./Photos/Dead.png"} /> 
+<div class="caption">Dead</div>
+</button> 
 
-<p> Please tell us hofhfhw you feel hah husakhskahkhadw</p>
+
+
 </div>
 );
 }
+
+
+
 const genreNames = ['Action', 'Adventure', 'Animation', 'Comedy', 
   'Documentary', 'Drama', 'Family', 'Fantasy',
   'History', 'Horror', 'Music', 'Mystery',
