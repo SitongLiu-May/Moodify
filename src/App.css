@@ -13,29 +13,7 @@
   min-height: 3000px;
 }
 
-.Happy {
-  background: transparent;
-  /*border: 100px*/
-}
-.Happy img {
-  width: 30px;
-  height: 30px;
-}
 
-.Angry {
-  background: transparent;
-  /*border: 100px;*/
-}
-
-.Angry img {
-  width: 30px;
-  height: 30px;
-}
-
-.Sad {
-  background: transparent;
-  /*border: 100px*/
-}
 .Good{
   position: absolute;
   top: 0;
@@ -43,20 +21,11 @@
 }
 
 .Heading{
-=======
-.Sad img {
-  width: 30px;
-  height: 30px;
-}
-
-.Dead {
-  background: transparent;
-  /*border: 100px*/
-}
-
-.Dead img {
-  width: 30px;
-  height: 30px;
+  position: static;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: oblique;
 }
 
 
@@ -185,6 +154,7 @@
   height: 100px;
   border: 15px solid #73AD21;
 }
+*/
 
 
 
