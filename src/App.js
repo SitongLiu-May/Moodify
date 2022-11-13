@@ -18,7 +18,7 @@ return (
 <p className="App-WelcomeGreeting">Welcome to Moodify. We're here to help you</p>
 
 
-<p className = "Heading">How do you feel?</p>
+<p className = "App-Heading">How do you feel?</p>
 <p className = "Good">Good morning</p>
   <button className = "Happy"> <img src={"./Photos/Happy.png"} alt = "Image"/> </button>
   <button className = "Angry"> <img src={"./Photos/Angry.png"} alt = "Image"/> </button>
